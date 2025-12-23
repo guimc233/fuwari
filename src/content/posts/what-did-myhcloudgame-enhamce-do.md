@@ -16,7 +16,7 @@ lang: ''
 打开长得最像 Webview 组件的类 `ContentWebViewHolder`, 开始对它的 `setUrl` 方法动刀    
 首先把它的动态补丁干掉    
 
-```smali title="ContentWebViewHolder.smsli" del={6} {15} ins={7} {16}
+```smali title="ContentWebViewHolder.smsli" del={6, 15} ins={7, 16}
 .method public setUrl(Ljava/lang/String;)V
     .registers 9
 
