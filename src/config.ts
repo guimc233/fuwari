@@ -79,6 +79,11 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:discord",
 			url: "https://discord.gg/k9HJzN5sM3",
 		},
+		{
+			name: "Telegram",
+			icon: "fa6-brands:telegram",
+			url: "https://t.me/invalid_channel_link",
+		},
 	],
 };
 
